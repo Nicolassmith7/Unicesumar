@@ -5,7 +5,7 @@ Desenvolvi um website completo e responsivo com quatro páginas interligadas: **
 * **Layout responsivo** com media queries para adaptação a diferentes telas;
 * **Menu de navegação funcional** em todas as páginas;
 * **Formulário de contato** com validação em JavaScript;
-* **Efeitos interativos**, como rolagem suave e feedback visual ao enviar o formulário;
+* **Efeitos interativos**, como rolagem suave e feedback visual.
 * **Boas práticas de SEO**, com uso de tags semânticas e metadados.
 
 O código está organizado em uma pasta com os arquivos necessários para visualização local.
