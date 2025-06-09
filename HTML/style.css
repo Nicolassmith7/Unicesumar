@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f0f0f0;
+    color: #333;
+    padding-top: 60px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #222;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.menu a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover,
+.menu a.active {
+    background-color: #f06d06;
+    border-radius: 4px;
+    color: #fff;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+
+.home-intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.home-intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #f06d06;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d35a00;
+}
+
+
+.about p {
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+
+.projects ul {
+    list-style: disc inside;
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact label {
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.contact button {
+    align-self: flex-start;
+}
+
+
+#formMessage {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .home-intro h1 {
+        font-size: 1.8em;
+    }
+}
